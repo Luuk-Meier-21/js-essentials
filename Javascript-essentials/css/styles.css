@@ -1,0 +1,151 @@
+@import url("https://use.typekit.net/izk3suq.css");
+
+*,
+*::before, 
+*::after {
+box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+margin: 0;
+padding: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+font-family: inherit;
+font-size: inherit;
+line-height: inherit;
+font-weight: inherit;
+font-kerning: auto;
+}
+
+ul,
+ol {
+display: block;
+list-style: none;
+}
+
+img {
+max-width: 100%;
+display: block;
+}
+
+input,
+button,
+textarea,
+select {
+font: inherit;
+}
+  
+
+body {
+    font-family: neue-haas-grotesk-text, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.4;
+    height: 2000px;
+}
+
+section {
+    margin: 0 auto;
+    margin-top: 1rem;
+    max-width: 30rem;
+}
+
+section.sticky {
+    position: fixed;
+    left: 50%;
+    top: 0;
+    width: 100%;
+    transform: translateX(-50%);
+}
+
+article {
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+p {
+    min-height: 10rem;
+    padding: 1rem;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: red;
+}
+
+article a {
+    background-color: #E6E6E2;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-top: 1px solid black;
+}
+
+.fig {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+.fig-red {
+    top: -20%;
+    left: 10%;
+}
+
+.fig-blue {
+    top: 10%;
+    left: unset;
+    right: 12%;
+}
+
+.fig-green {
+    top: 30%;
+    left: unset;
+    right: 30%;
+}
+
+
+
+
